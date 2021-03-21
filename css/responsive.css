@@ -4,7 +4,9 @@
 -------------------------------------------------------------------*/
 
 @media (min-width: 1200px) and (max-width: 1390px) {
-
+.images{
+	transform:scale(.9);
+	}
 /** ecommere style 2 **/
 
 .header_style_ecomm2 .header_top .float-left, .header_style_ecomm2 .header_top .float-right {
