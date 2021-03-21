@@ -46,6 +46,10 @@
     .body {
         overflow-x: hidden;
     }
+	
+    .images{
+        transform: scale(.8);
+    }
     .container {
         width: 100%;
         max-width: 990px;
@@ -355,6 +359,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	.images{
+        transform: scale(.7);
+    }
     .container {
         max-width: 750px;
         width: 100%:
@@ -745,6 +752,9 @@
 }
 
 @media (min-width:576px) and (max-width:767px) {
+	.images{
+        display: none;
+    }
     /** basic css **/
     .margin_top_30_respon {
         margin-top: 30px;
@@ -1960,6 +1970,9 @@
 }
 
 @media (max-width:575px) {
+	.images{
+        display: none;
+    }
     /** cross layout **/
     .inform_dentist_botm p {
         text-align: center;
